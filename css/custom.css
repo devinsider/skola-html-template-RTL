@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Ray-Bold';
+    src: url('../fonts/Ray-Black.ttf');
+}
+
+body {
+    font-family: 'Ray-Bold' !important;
+    text-align: right !important;
+    font-size: 1.2rem !important;
+}
+
+.star-rating {
+    flex-direction: row-reverse;
+}
+
+    .star-rating .rating {
+        right: 0 !important;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+
+.nav {
+    padding-right: 0;
+}
+
+.list-unstyled {
+    padding-right: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-left: 0.5rem;
+    margin-right: 0 !important;
+}
+
+.modal-header .close {
+    margin: -1rem auto -1rem -1rem !important;
+}
+
+.form-check-input {
+    margin-right: -1.25rem;
+}
+
+.form-check {
+    padding-right: 1.25rem;
+}
+
+.bg-primary-color {
+    background-color: #f6f9fb !important;
+}
+
+.input-group > .input-group-append > .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.input-group > .form-control:not(:last-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+/*.custom-select-sm {
+    padding-right: 1rem !important;
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='22' height='36' viewBox='0 0 24 24'%3e%3cpolyline fill='none' stroke='%232F2D51' stroke-width='2.8' stroke-linecap='round' points='6 9 12 15 18 9'/%3e%3c/svg%3e") no-repeat left 1rem center/auto 50% !important;
+}
+
+.custom-select {
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='22' height='36' viewBox='0 0 24 24'%3e%3cpolyline fill='none' stroke='%232F2D51' stroke-width='2.8' stroke-linecap='round' points='6 9 12 15 18 9'/%3e%3c/svg%3e") no-repeat left 1rem center/auto 50% !important;
+}*/
+
+
+.pagination {
+    padding-right: 0 !important;
+}
+
+.pagination .page-link {
+    border-radius: 1rem !important;
+}
