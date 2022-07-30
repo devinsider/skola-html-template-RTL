@@ -80,3 +80,36 @@ body {
 .pagination .page-link {
     border-radius: 1rem !important;
 }
+
+.badge-float-inside{
+    left: 1rem;
+    right: auto;
+}
+
+.star-rating .rating::before, .star-rating::before {
+    letter-spacing: 5px !important;
+}
+
+.course-tab-v1 .nav-item:not(:last-child) {
+    margin-left: 24px !important;
+    margin-right: 0 !important;
+}
+
+.list-style-v1 li::after {
+    margin-left: -13px !important;
+    margin-right: 0;
+}
+
+.list-style-v1 li::before {
+    margin-left: 16px !important;
+    margin-right: 0;
+}
+
+.list-style-v2 li::before {
+    height: 11px;
+    width: 11px;
+    margin-left: 12px;
+    margin-right: 0;
+    border-radius: 25%;
+}
+
