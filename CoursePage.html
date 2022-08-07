@@ -37,93 +37,13 @@
 
     <!-- MODALS
     ================================================== -->
-    <!-- Modal Sidebar account -->
-    <div class="modal fade" id="modalExample" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-
-                    <!-- Close -->
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-
-                    <!-- Heading -->
-                    <h2 class="font-weight-bold text-center mb-1" id="modalExampleTitle">
-                        Schedule a demo with us
-                    </h2>
-
-                    <!-- Text -->
-                    <p class="font-size-lg text-center text-muted mb-6 mb-md-8">
-                        We can help you solve company communication.
-                    </p>
-
-                    <!-- Form -->
-                    <form>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-
-                                <!-- First name -->
-                                <div class="form-label-group">
-                                    <input type="text" class="form-control form-control-flush" id="registrationFirstNameModal" placeholder="First name">
-                                    <label for="registrationFirstNameModal">First name</label>
-                                </div>
-
-                            </div>
-                            <div class="col-12 col-md-6">
-
-                                <!-- Last name -->
-                                <div class="form-label-group">
-                                    <input type="text" class="form-control form-control-flush" id="registrationLastNameModal" placeholder="Last name">
-                                    <label for="registrationLastNameModal">Last name</label>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-
-                                <!-- Email -->
-                                <div class="form-label-group">
-                                    <input type="email" class="form-control form-control-flush" id="registrationEmailModal" placeholder="Email">
-                                    <label for="registrationEmailModal">Email</label>
-                                </div>
-
-                            </div>
-                            <div class="col-12 col-md-6">
-
-                                <!-- Password -->
-                                <div class="form-label-group">
-                                    <input type="password" class="form-control form-control-flush" id="registrationPasswordModal" placeholder="Password">
-                                    <label for="registrationPasswordModal">Password</label>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-
-                                <!-- Submit -->
-                                <button class="btn btn-block btn-primary mt-3 lift">
-                                    Request a demo
-                                </button>
-
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="modal modal-sidebar left fade-left fade" id="accountModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <!-- Signin -->
                 <div class="collapse show" id="collapseSignin" data-parent="#accountModal">
                     <div class="modal-header">
-                        <h5 class="modal-title">Log In to Your Skola Account!</h5>
+                        <h5 class="modal-title">ورود به حساب کاربری</h5>
                         <button type="button" class="close text-primary" data-dismiss="modal" aria-label="Close">
                             <!-- Icon -->
                             <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
@@ -141,15 +61,15 @@
                             <!-- Email -->
                             <div class="form-group mb-5">
                                 <label for="modalSigninEmail">
-                                    Username or Email
+                                    نام کاربری یا ایمیل
                                 </label>
-                                <input type="email" class="form-control" id="modalSigninEmail" placeholder="creativelayers">
+                                <input type="email" class="form-control" id="modalSigninEmail" placeholder="نام کاربری یا ایمیل را وارد کنید">
                             </div>
 
                             <!-- Password -->
                             <div class="form-group mb-5">
                                 <label for="modalSigninPassword">
-                                    Password
+                                    رمز عبور
                                 </label>
                                 <input type="password" class="form-control" id="modalSigninPassword" placeholder="**********">
                             </div>
@@ -158,24 +78,24 @@
                                 <div class="form-check">
                                     <input class="form-check-input text-gray-800" type="checkbox" id="autoSizingCheck">
                                     <label class="form-check-label text-gray-800" for="autoSizingCheck">
-                                        Remember me
+                                        مرا بخاطر بسپار
                                     </label>
                                 </div>
 
-                                <div class="ml-auto">
-                                    <a class="text-gray-800" data-toggle="collapse" href="#collapseForgotPassword" role="button" aria-expanded="false" aria-controls="collapseForgotPassword">Forgot Password</a>
+                                <div class="mr-auto">
+                                    <a class="text-gray-800" data-toggle="collapse" href="#collapseForgotPassword" role="button" aria-expanded="false" aria-controls="collapseForgotPassword">فراموشی رمز عبور</a>
                                 </div>
                             </div>
 
                             <!-- Submit -->
                             <button class="btn btn-block btn-primary" type="submit">
-                                LOGIN
+                                ورود
                             </button>
                         </form>
 
                         <!-- Text -->
                         <p class="mb-0 font-size-sm text-center">
-                            Don't have an account? <a class="text-underline" data-toggle="collapse" href="#collapseSignup" role="button" aria-expanded="false" aria-controls="collapseSignup">Sign up</a>
+                          هنوز ثبت نام نکردی؟!  <a class="text-underline" data-toggle="collapse" href="#collapseSignup" role="button" aria-expanded="false" aria-controls="collapseSignup">ثبت نام</a>
                         </p>
                     </div>
                 </div>
@@ -183,7 +103,7 @@
                 <!-- Signup -->
                 <div class="collapse" id="collapseSignup" data-parent="#accountModal">
                     <div class="modal-header">
-                        <h5 class="modal-title">Sign Up and Start Learning!</h5>
+                        <h5 class="modal-title">یک قدم تا شروع یادگیری!</h5>
                         <button type="button" class="close text-primary" data-dismiss="modal" aria-label="Close">
                             <!-- Icon -->
                             <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +121,7 @@
                             <!-- Username -->
                             <div class="form-group mb-5">
                                 <label for="modalSignupUsername">
-                                    Username
+                                    نام کاربری
                                 </label>
                                 <input type="text" class="form-control" id="modalSignupUsername" placeholder="John">
                             </div>
@@ -209,7 +129,7 @@
                             <!-- Email -->
                             <div class="form-group mb-5">
                                 <label for="modalSignupEmail">
-                                    Username or Email
+                                    ایمیل
                                 </label>
                                 <input type="email" class="form-control" id="modalSignupEmail" placeholder="johndoe@creativelayers.com">
                             </div>
@@ -217,21 +137,21 @@
                             <!-- Password -->
                             <div class="form-group mb-5">
                                 <label for="modalSignupPassword">
-                                    Password
+                                    رمز عبور
                                 </label>
                                 <input type="password" class="form-control" id="modalSignupPassword" placeholder="**********">
                             </div>
 
                             <!-- Submit -->
                             <button class="btn btn-block btn-primary" type="submit">
-                                SIGN UP
+                                ثبت نام
                             </button>
 
                         </form>
 
                         <!-- Text -->
                         <p class="mb-0 font-size-sm text-center">
-                            Already have an account? <a class="text-underline" data-toggle="collapse" href="#collapseSignin" role="button" aria-expanded="true" aria-controls="collapseSignin">Log In</a>
+                             قبلا ثبت نام کردی؟<a class="text-underline" data-toggle="collapse" href="#collapseSignin" role="button" aria-expanded="true" aria-controls="collapseSignin">ورود</a>
                         </p>
                     </div>
                 </div>
@@ -239,7 +159,7 @@
                 <!-- Forgot Password -->
                 <div class="collapse" id="collapseForgotPassword" data-parent="#accountModal">
                     <div class="modal-header">
-                        <h5 class="modal-title">Recover password!</h5>
+                        <h5 class="modal-title">بازیابی رمز عبور</h5>
                         <button type="button" class="close text-primary" data-dismiss="modal" aria-label="Close">
                             <!-- Icon -->
                             <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
@@ -256,130 +176,27 @@
                             <!-- Email -->
                             <div class="form-group">
                                 <label for="modalForgotpasswordEmail">
-                                    Email
+                                    ایمیل
                                 </label>
                                 <input type="email" class="form-control" id="modalForgotpasswordEmail" placeholder="johndoe@creativelayers.com">
                             </div>
 
                             <!-- Submit -->
                             <button class="btn btn-block btn-primary" type="submit">
-                                RECOVER PASSWORD
+                               بازیابی کن
                             </button>
                         </form>
 
                         <!-- Text -->
                         <p class="mb-0 font-size-sm text-center">
-                            Remember your password? <a class="text-underline" data-toggle="collapse" href="#collapseSignin" role="button" aria-expanded="false" aria-controls="collapseSignin">Log In</a>
+                            رمز عبور رو یادت اومد؟  <a class="text-underline" data-toggle="collapse" href="#collapseSignin" role="button" aria-expanded="false" aria-controls="collapseSignin">ورود</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Modal Sidebar cart -->
-    <div class="modal modal-sidebar left fade-left fade" id="cartModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header mb-4">
-                    <h5 class="modal-title">Your Shopping Cart</h5>
-                    <button type="button" class="close text-primary" data-dismiss="modal" aria-label="Close">
-                        <!-- Icon -->
-                        <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0.142135 2.00015L1.55635 0.585938L15.6985 14.7281L14.2843 16.1423L0.142135 2.00015Z" fill="currentColor" />
-                            <path d="M14.1421 1.0001L15.5563 2.41431L1.41421 16.5564L0 15.1422L14.1421 1.0001Z" fill="currentColor" />
-                        </svg>
-
-                    </button>
-                </div>
-
-                <div class="modal-body">
-                    <ul class="list-group list-group-flush mb-5">
-                        <li class="list-group-item border-bottom py-0">
-                            <div class="d-flex py-5">
-                                <div class="bg-gray-200 w-60p h-60p rounded-circle overflow-hidden"></div>
-
-                                <div class="flex-grow-1 mt-1 ml-4">
-                                    <h6 class="font-weight-normal mb-0">Basic of Nature</h6>
-                                    <div class="font-size-sm">1 × $18.00</div>
-                                </div>
-
-                                <a href="#" class="d-inline-flex text-secondary">
-                                    <!-- Icon -->
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.0469 0H5.95294C5.37707 0 4.90857 0.4685 4.90857 1.04437V3.02872H6.16182V1.25325H9.83806V3.02872H11.0913V1.04437C11.0913 0.4685 10.6228 0 10.0469 0Z" fill="currentColor" />
-                                        <path d="M11.0492 5.51652L9.7968 5.47058L9.52527 12.8857L10.7777 12.9315L11.0492 5.51652Z" fill="currentColor" />
-                                        <path d="M8.62666 5.49353H7.37341V12.9087H8.62666V5.49353Z" fill="currentColor" />
-                                        <path d="M6.47453 12.8855L6.203 5.47034L4.95056 5.51631L5.22212 12.9314L6.47453 12.8855Z" fill="currentColor" />
-                                        <path d="M0.543091 2.4021V3.65535H1.849L2.885 15.4283C2.9134 15.7519 3.18434 16 3.50912 16H12.4697C12.7946 16 13.0657 15.7517 13.0939 15.4281L14.1299 3.65535H15.4569V2.4021H0.543091ZM11.8958 14.7468H4.08293L3.10706 3.65535H12.8719L11.8958 14.7468Z" fill="currentColor" />
-                                    </svg>
-
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="list-group-item border-bottom py-0">
-                            <div class="d-flex py-5">
-                                <div class="bg-gray-200 w-60p h-60p rounded-circle overflow-hidden"></div>
-
-                                <div class="flex-grow-1 mt-1 ml-4">
-                                    <h6 class="font-weight-normal mb-0">Color Harriet Tubman</h6>
-                                    <div class="font-size-sm">1 × $18.00</div>
-                                </div>
-
-                                <a href="#" class="d-inline-flex text-secondary">
-                                    <!-- Icon -->
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.0469 0H5.95294C5.37707 0 4.90857 0.4685 4.90857 1.04437V3.02872H6.16182V1.25325H9.83806V3.02872H11.0913V1.04437C11.0913 0.4685 10.6228 0 10.0469 0Z" fill="currentColor" />
-                                        <path d="M11.0492 5.51652L9.7968 5.47058L9.52527 12.8857L10.7777 12.9315L11.0492 5.51652Z" fill="currentColor" />
-                                        <path d="M8.62666 5.49353H7.37341V12.9087H8.62666V5.49353Z" fill="currentColor" />
-                                        <path d="M6.47453 12.8855L6.203 5.47034L4.95056 5.51631L5.22212 12.9314L6.47453 12.8855Z" fill="currentColor" />
-                                        <path d="M0.543091 2.4021V3.65535H1.849L2.885 15.4283C2.9134 15.7519 3.18434 16 3.50912 16H12.4697C12.7946 16 13.0657 15.7517 13.0939 15.4281L14.1299 3.65535H15.4569V2.4021H0.543091ZM11.8958 14.7468H4.08293L3.10706 3.65535H12.8719L11.8958 14.7468Z" fill="currentColor" />
-                                    </svg>
-
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="list-group-item border-bottom py-0">
-                            <div class="d-flex py-5">
-                                <div class="bg-gray-200 w-60p h-60p rounded-circle overflow-hidden"></div>
-
-                                <div class="flex-grow-1 mt-1 ml-4">
-                                    <h6 class="font-weight-normal mb-0">Digital Photography</h6>
-                                    <div class="font-size-sm">1 × $18.00</div>
-                                </div>
-
-                                <a href="#" class="d-inline-flex text-secondary">
-                                    <!-- Icon -->
-                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.0469 0H5.95294C5.37707 0 4.90857 0.4685 4.90857 1.04437V3.02872H6.16182V1.25325H9.83806V3.02872H11.0913V1.04437C11.0913 0.4685 10.6228 0 10.0469 0Z" fill="currentColor" />
-                                        <path d="M11.0492 5.51652L9.7968 5.47058L9.52527 12.8857L10.7777 12.9315L11.0492 5.51652Z" fill="currentColor" />
-                                        <path d="M8.62666 5.49353H7.37341V12.9087H8.62666V5.49353Z" fill="currentColor" />
-                                        <path d="M6.47453 12.8855L6.203 5.47034L4.95056 5.51631L5.22212 12.9314L6.47453 12.8855Z" fill="currentColor" />
-                                        <path d="M0.543091 2.4021V3.65535H1.849L2.885 15.4283C2.9134 15.7519 3.18434 16 3.50912 16H12.4697C12.7946 16 13.0657 15.7517 13.0939 15.4281L14.1299 3.65535H15.4569V2.4021H0.543091ZM11.8958 14.7468H4.08293L3.10706 3.65535H12.8719L11.8958 14.7468Z" fill="currentColor" />
-                                    </svg>
-
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <div class="d-flex mb-5">
-                        <h5 class="mb-0 mr-auto">Order Subtotal</h5>
-                        <h5 class="mb-0">$121.87</h5>
-                    </div>
-
-                    <div class="d-md-flex justify-content-between">
-                        <a href="#" class="d-block d-md-inline-block mb-4 mb-md-0 btn btn-primary btn-sm-wide">VIEW CART</a>
-                        <a href="#" class="d-block d-md-inline-block btn btn-teal btn-sm-wide">CHECKOUT</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
+   
     <!-- NAVBAR
       ================================================== -->
     <header class="navbar navbar-expand-xl navbar-light">
@@ -411,7 +228,7 @@
                     <ul class="dropdown-menu dropdown-menu-md bg-dark rounded py-4 mt-4" aria-labelledby="navbarVerticalMenu">
                         <li class="dropdown-item dropright">
                             <a class="dropdown-link dropdown-toggle" data-toggle="dropdown" href="#">
-                                <div class="mr-4 d-flex text-white icon-xs">
+                                <div class="ml-4 d-flex text-white icon-xs">
                                     <!-- Icon -->
                                     <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M10.5247 5.64759C10.3104 5.21736 9.6919 5.21322 9.47557 5.64759L5.37401 13.8898C5.28096 14.0767 5.29443 14.299 5.4094 14.4734L7.65635 17.8813V20.0493C7.65635 20.3729 7.91869 20.6352 8.24229 20.6352H11.7579C12.0815 20.6352 12.3439 20.3729 12.3439 20.0493V17.8813L14.5908 14.4734C14.7058 14.299 14.7192 14.0767 14.6262 13.8898L10.5247 5.64759ZM11.172 19.4633H8.82822V18.2915H11.172V19.4633ZM11.4424 17.1196H8.55779L6.57342 14.1099L9.41416 8.40131V14.1508C9.41416 14.4744 9.67651 14.7368 10.0001 14.7368C10.3237 14.7368 10.586 14.4744 10.586 14.1508V8.40131L13.4268 14.1099L11.4424 17.1196Z" fill="currentColor" fill-opacity="0.6" />
@@ -419,31 +236,31 @@
                                     </svg>
 
                                 </div>
-                                Design
+                                طراحی
                             </a>
 
-                            <div class="dropdown-menu pl-3 top-0 pr-0 py-0 shadow-none bg-transparent">
+                            <div class="dropdown-menu pr-3 top-0 pl-0 py-0 shadow-none bg-transparent">
                                 <div class="dropdown-menu-md bg-dark rounded dropdown-menu-inner">
                                     <a class="dropdown-item" href="./course-single-v1.html">
-                                        All Business
+                                       همه
                                     </a>
                                     <a class="dropdown-item" href="./course-single-v2.html">
-                                        Finance
+                                       مالی
                                     </a>
                                     <a class="dropdown-item" href="./course-single-v3.html">
-                                        Entrepreneurship
+                                        مصاحبه
                                     </a>
                                     <a class="dropdown-item" href="./course-single-v4.html">
-                                        Communications
+                                        اجتماعی
                                     </a>
                                     <a class="dropdown-item" href="./course-single-v5.html">
-                                        Management
+                                        میدیریت
                                     </a>
                                     <a class="dropdown-item" href="./course-single-v1.html">
-                                        Sales
+                                        فروش
                                     </a>
                                     <a class="dropdown-item" href="./course-single-v2.html">
-                                        Operations
+                                        اجرایی
                                     </a>
                                 </div>
                             </div>
@@ -1605,7 +1422,7 @@
 
                                 <div id="CurriculumcollapseTwo" class="collapse show" aria-labelledby="curriculumheadingTwo" data-parent="#accordionCurriculum">
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1617,13 +1434,13 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Intro to Design Basics
+                                            <div class="mr-4">
+                                            چگونه شروع کنیم؟
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۳۵ دقیقه</div>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -1635,7 +1452,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1647,15 +1464,15 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Layout
+                                            <div class="mr-4">
+                                                قالب طراحی
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="mr-5 font-size-sm">12 lectures</div>
-                                            <div class="badge text-dark-70 bg-orange-40 mr-5 font-size-sm font-weight-normal py-2">5 question</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">45 min</div>
+                                            <div class="ml-5 font-size-sm">۱۲ درس</div>
+                                            <div class="badge text-dark-70 bg-orange-40 ml-5 font-size-sm font-weight-normal py-2">۵ سوال</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۴۵ دقیقه</div>
                                             <div class="text-secondary d-flex">
                                                 <!-- Icon -->
                                                 <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1668,7 +1485,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
@@ -1677,13 +1494,13 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Visual hierarchy
+                                            <div class="mr-4">
+                                                رابطه طراحی با طبیعت
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <button class="btn btn-sm btn-blue-soft mr-5 font-size-sm font-weight-normal py-1">30 min</button>
+                                            <button class="btn btn-sm btn-blue-soft ml-5 font-size-sm font-weight-normal py-1">۱ ساعت</button>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -1695,7 +1512,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
@@ -1704,15 +1521,15 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Visual noise
+                                            <div class="mr-4">
+                                                رنگ‌ها
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="mr-5 font-size-sm">12 lectures</div>
-                                            <div class="badge text-dark-70 bg-orange-40 mr-5 font-size-sm font-weight-normal py-2">5 question</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">45 min</div>
+                                            <div class="ml-5 font-size-sm">۲۰ درس</div>
+                                            <div class="badge text-dark-70 bg-orange-40 ml-5 font-size-sm font-weight-normal py-2">۱۲ سوال</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۴۵ دقیقه</div>
 
                                             <div class="text-secondary d-flex">
                                                 <!-- Icon -->
@@ -1726,7 +1543,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1738,8 +1555,8 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Iconography
+                                            <div class="mr-4">
+                                                آیکون‌گرافی
                                             </div>
                                         </div>
 
@@ -1752,41 +1569,14 @@
 
                                             </a>
                                         </div>
-                                    </div>
-
-                                    <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
-                                            <div class="text-secondary d-flex">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
-                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor" />
-                                                </svg>
-
-                                            </div>
-
-                                            <div class="ml-4">
-                                                Typography
-                                            </div>
-                                        </div>
-
-                                        <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="text-secondary d-flex">
-                                                <!-- Icon -->
-                                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M15.625 7.34375H7.3423V4.13164C7.3423 2.715 8.53391 1.5625 9.99855 1.5625C11.4632 1.5625 12.6548 2.715 12.6548 4.13164V5.625H14.2173V4.13164C14.2173 1.85344 12.3248 0 9.99855 0C7.67234 0 5.7798 1.85344 5.7798 4.13164V7.34375H4.375C3.08266 7.34375 2.03125 8.39516 2.03125 9.6875V17.6562C2.03125 18.9486 3.08266 20 4.375 20H15.625C16.9173 20 17.9688 18.9486 17.9688 17.6562V9.6875C17.9688 8.39516 16.9173 7.34375 15.625 7.34375ZM16.4062 17.6562C16.4062 18.087 16.0558 18.4375 15.625 18.4375H4.375C3.94422 18.4375 3.59375 18.087 3.59375 17.6562V9.6875C3.59375 9.25672 3.94422 8.90625 4.375 8.90625H15.625C16.0558 8.90625 16.4062 9.25672 16.4062 9.6875V17.6562Z" fill="currentColor" />
-                                                    <path d="M10 11.1719C9.20176 11.1719 8.55469 11.8189 8.55469 12.6172C8.55469 13.1269 8.81875 13.5746 9.2173 13.832V15.5469C9.2173 15.9783 9.56707 16.3281 9.99855 16.3281C10.43 16.3281 10.7798 15.9783 10.7798 15.5469V13.8338C11.18 13.5768 11.4453 13.1281 11.4453 12.6172C11.4453 11.8189 10.7982 11.1719 10 11.1719Z" fill="currentColor" />
-                                                </svg>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div>  
                                 </div>
                             </div>
 
                             <div class="border rounded shadow mb-6 overflow-hidden">
-                                <div class="d-flex align-items-center" id="curriculumheadingThree">
+                                <div class="d-flex align-items-center" id="curriculumheadingTwo">
                                     <h5 class="mb-0 w-100">
-                                        <button class="d-flex align-items-center p-5 min-height-80 text-dark font-weight-medium collapse-accordion-toggle line-height-one" type="button" data-toggle="collapse" data-target="#CurriculumcollapseThree" aria-expanded="false" aria-controls="CurriculumcollapseThree">
+                                        <button class="d-flex align-items-center p-5 min-height-80 text-dark font-weight-medium collapse-accordion-toggle line-height-one" type="button" data-toggle="collapse" data-target="#CurriculumcollapseTwo" aria-expanded="false" aria-controls="CurriculumcollapseTwo">
                                             <span class="ml-4 text-dark d-flex">
                                                 <!-- Icon -->
                                                 <svg width="15" height="2" viewBox="0 0 15 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1800,14 +1590,14 @@
 
                                             </span>
 
-                                            شروع کار با نرم افزار
+                                            پایه‌های گرافیک
                                         </button>
                                     </h5>
                                 </div>
 
-                                <div id="CurriculumcollapseThree" class="collapse" aria-labelledby="curriculumheadingThree" data-parent="#accordionCurriculum">
+                                <div id="CurriculumcollapseTwo" class="collapse" aria-labelledby="curriculumheadingTwo" data-parent="#accordionCurriculum">
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1819,14 +1609,13 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Introduction to the course
+                                            <div class="mr-4">
+                                            چگونه شروع کنیم؟
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="badge text-dark-70 bg-orange-40 mr-5 font-size-sm font-weight-normal py-2">3 question</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۳۵ دقیقه</div>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -1838,7 +1627,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1850,12 +1639,15 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Introduction
+                                            <div class="mr-4">
+                                                قالب طراحی
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
+                                            <div class="ml-5 font-size-sm">۱۲ درس</div>
+                                            <div class="badge text-dark-70 bg-orange-40 ml-5 font-size-sm font-weight-normal py-2">۵ سوال</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۴۵ دقیقه</div>
                                             <div class="text-secondary d-flex">
                                                 <!-- Icon -->
                                                 <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -1868,7 +1660,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
@@ -1877,13 +1669,13 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Structure of the course
+                                            <div class="mr-4">
+                                                رابطه طراحی با طبیعت
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
+                                            <button class="btn btn-sm btn-blue-soft ml-5 font-size-sm font-weight-normal py-1">۱ ساعت</button>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -1895,7 +1687,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
@@ -1904,14 +1696,15 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Required Tools
+                                            <div class="mr-4">
+                                                رنگ‌ها
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="mr-5 font-size-sm">12 lectures</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
+                                            <div class="ml-5 font-size-sm">۲۰ درس</div>
+                                            <div class="badge text-dark-70 bg-orange-40 ml-5 font-size-sm font-weight-normal py-2">۱۲ سوال</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۴۵ دقیقه</div>
 
                                             <div class="text-secondary d-flex">
                                                 <!-- Icon -->
@@ -1925,7 +1718,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1937,14 +1730,12 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Get Your Free E-book
+                                            <div class="mr-4">
+                                                آیکون‌گرافی
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="badge text-dark-70 bg-orange-40 mr-5 font-size-sm font-weight-normal py-2">3 question</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -1953,14 +1744,14 @@
 
                                             </a>
                                         </div>
-                                    </div>
+                                    </div>  
                                 </div>
                             </div>
 
                             <div class="border rounded shadow mb-6 overflow-hidden">
-                                <div class="d-flex align-items-center" id="curriculumheadingFour">
+                                <div class="d-flex align-items-center" id="curriculumheadingTwo">
                                     <h5 class="mb-0 w-100">
-                                        <button class="d-flex align-items-center p-5 min-height-80 text-dark font-weight-medium collapse-accordion-toggle line-height-one" type="button" data-toggle="collapse" data-target="#CurriculumcollapseFour" aria-expanded="false" aria-controls="CurriculumcollapseFour">
+                                        <button class="d-flex align-items-center p-5 min-height-80 text-dark font-weight-medium collapse-accordion-toggle line-height-one" type="button" data-toggle="collapse" data-target="#CurriculumcollapseTwo" aria-expanded="true" aria-controls="CurriculumcollapseTwo">
                                             <span class="ml-4 text-dark d-flex">
                                                 <!-- Icon -->
                                                 <svg width="15" height="2" viewBox="0 0 15 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1974,14 +1765,14 @@
 
                                             </span>
 
-                                            ابزارک‌ها
+                                            پایه‌های دیزاین
                                         </button>
                                     </h5>
                                 </div>
 
-                                <div id="CurriculumcollapseFour" class="collapse" aria-labelledby="curriculumheadingFour" data-parent="#accordionCurriculum">
+                                <div id="CurriculumcollapseTwo" class="collapse show" aria-labelledby="curriculumheadingTwo" data-parent="#accordionCurriculum">
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -1993,13 +1784,13 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Intro to Design Basics
+                                            <div class="mr-4">
+                                            چگونه شروع کنیم؟
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۳۵ دقیقه</div>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -2011,7 +1802,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -2023,15 +1814,15 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Layout
+                                            <div class="mr-4">
+                                                قالب طراحی
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="mr-5 font-size-sm">12 lectures</div>
-                                            <div class="badge text-dark-70 bg-orange-40 mr-5 font-size-sm font-weight-normal py-2">5 question</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">45 min</div>
+                                            <div class="ml-5 font-size-sm">۱۲ درس</div>
+                                            <div class="badge text-dark-70 bg-orange-40 ml-5 font-size-sm font-weight-normal py-2">۵ سوال</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۴۵ دقیقه</div>
                                             <div class="text-secondary d-flex">
                                                 <!-- Icon -->
                                                 <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -2044,7 +1835,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
@@ -2053,13 +1844,13 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Visual hierarchy
+                                            <div class="mr-4">
+                                                رابطه طراحی با طبیعت
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">30 min</div>
+                                            <button class="btn btn-sm btn-blue-soft ml-5 font-size-sm font-weight-normal py-1">۱ ساعت</button>
                                             <a href="#" class="text-secondary">
                                                 <!-- Icon -->
                                                 <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
@@ -2071,7 +1862,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
@@ -2080,15 +1871,15 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Visual noise
+                                            <div class="mr-4">
+                                                رنگ‌ها
                                             </div>
                                         </div>
 
                                         <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="mr-5 font-size-sm">12 lectures</div>
-                                            <div class="badge text-dark-70 bg-orange-40 mr-5 font-size-sm font-weight-normal py-2">5 question</div>
-                                            <div class="badge btn-blue-soft mr-5 font-size-sm font-weight-normal py-2">45 min</div>
+                                            <div class="ml-5 font-size-sm">۲۰ درس</div>
+                                            <div class="badge text-dark-70 bg-orange-40 ml-5 font-size-sm font-weight-normal py-2">۱۲ سوال</div>
+                                            <div class="badge btn-blue-soft ml-5 font-size-sm font-weight-normal py-2">۴۵ دقیقه</div>
 
                                             <div class="text-secondary d-flex">
                                                 <!-- Icon -->
@@ -2102,7 +1893,7 @@
                                     </div>
 
                                     <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
+                                        <div class="d-flex align-items-center ml-auto mb-4 mb-md-0">
                                             <div class="text-secondary d-flex">
                                                 <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M12.5717 0H4.16956C4.05379 0.00594643 3.94322 0.0496071 3.85456 0.124286L0.413131 3.57857C0.328167 3.65957 0.280113 3.77191 0.280274 3.88929V16.8514C0.281452 17.4853 0.794988 17.9988 1.42885 18H12.5717C13.1981 17.9989 13.7086 17.497 13.7203 16.8707V1.14857C13.7191 0.514714 13.2056 0.00117857 12.5717 0ZM8.18099 0.857143H10.6988V4.87714L9.80527 3.45214C9.76906 3.39182 9.71859 3.3413 9.65827 3.30514C9.45529 3.18337 9.19204 3.24916 9.07027 3.45214L8.18099 4.87071V0.857143ZM3.7367 1.46786V2.66143C3.73552 3.10002 3.38029 3.45525 2.9417 3.45643H1.74813L3.7367 1.46786ZM12.8546 16.86C12.8534 17.0157 12.7274 17.1417 12.5717 17.1429H1.42885C1.42665 17.1429 1.42445 17.143 1.42226 17.143C1.26486 17.1441 1.13635 17.0174 1.13527 16.86V4.32214H2.9417C3.85793 4.31979 4.60006 3.57766 4.60242 2.66143V0.857143H7.31527V5.23286C7.31345 5.42593 7.37688 5.61391 7.49527 5.76643C7.67533 5.99539 7.98036 6.08561 8.25599 5.99143L8.28813 5.98071C8.49272 5.89484 8.66356 5.7443 8.77456 5.55214L9.44099 4.48071L10.1074 5.55214C10.2184 5.7443 10.3893 5.89484 10.5938 5.98071C10.8764 6.0922 11.1987 6.00509 11.3867 5.76643C11.5051 5.61391 11.5685 5.42593 11.5667 5.23286V0.857143H12.5717C12.7266 0.858268 12.8523 0.982982 12.8546 1.13786V16.86Z" fill="currentColor" />
@@ -2114,8 +1905,8 @@
 
                                             </div>
 
-                                            <div class="ml-4">
-                                                Iconography
+                                            <div class="mr-4">
+                                                آیکون‌گرافی
                                             </div>
                                         </div>
 
@@ -2128,119 +1919,92 @@
 
                                             </a>
                                         </div>
-                                    </div>
-
-                                    <div class="border-top px-5 py-4 min-height-70 d-md-flex align-items-center bg-gray-100">
-                                        <div class="d-flex align-items-center mr-auto mb-4 mb-md-0">
-                                            <div class="text-secondary d-flex">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M14.3164 4.20996C13.985 4.37028 13.8464 4.76904 14.0067 5.10026C14.4447 6.00505 14.6667 6.98031 14.6667 8C14.6667 11.6759 11.6759 14.6667 8 14.6667C4.32406 14.6667 1.33333 11.6759 1.33333 8C1.33333 4.32406 4.32406 1.33333 8 1.33333C9.52328 1.33333 10.9543 1.83073 12.1387 2.77165C12.4259 3.00098 12.846 2.95296 13.0754 2.66471C13.3047 2.37663 13.2567 1.95703 12.9683 1.72803C11.5661 0.613607 9.8016 0 8 0C3.58903 0 0 3.58903 0 8C0 12.411 3.58903 16 8 16C12.411 16 16 12.411 16 8C16 6.77767 15.7331 5.60628 15.2067 4.51969C15.0467 4.18766 14.6466 4.04932 14.3164 4.20996Z" fill="currentColor" />
-                                                    <path d="M7.99967 2.66663C7.63167 2.66663 7.33301 2.96529 7.33301 3.33329V7.99996C7.33301 8.36796 7.63167 8.66663 7.99967 8.66663H11.333C11.701 8.66663 11.9997 8.36796 11.9997 7.99996C11.9997 7.63196 11.701 7.33329 11.333 7.33329H8.66634V3.33329C8.66634 2.96529 8.36768 2.66663 7.99967 2.66663Z" fill="currentColor" />
-                                                </svg>
-
-                                            </div>
-
-                                            <div class="ml-4">
-                                                Typography
-                                            </div>
-                                        </div>
-
-                                        <div class="d-flex align-items-center overflow-auto overflow-md-visible flex-shrink-all">
-                                            <div class="text-secondary d-flex">
-                                                <!-- Icon -->
-                                                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M15.625 7.34375H7.3423V4.13164C7.3423 2.715 8.53391 1.5625 9.99855 1.5625C11.4632 1.5625 12.6548 2.715 12.6548 4.13164V5.625H14.2173V4.13164C14.2173 1.85344 12.3248 0 9.99855 0C7.67234 0 5.7798 1.85344 5.7798 4.13164V7.34375H4.375C3.08266 7.34375 2.03125 8.39516 2.03125 9.6875V17.6562C2.03125 18.9486 3.08266 20 4.375 20H15.625C16.9173 20 17.9688 18.9486 17.9688 17.6562V9.6875C17.9688 8.39516 16.9173 7.34375 15.625 7.34375ZM16.4062 17.6562C16.4062 18.087 16.0558 18.4375 15.625 18.4375H4.375C3.94422 18.4375 3.59375 18.087 3.59375 17.6562V9.6875C3.59375 9.25672 3.94422 8.90625 4.375 8.90625H15.625C16.0558 8.90625 16.4062 9.25672 16.4062 9.6875V17.6562Z" fill="currentColor" />
-                                                    <path d="M10 11.1719C9.20176 11.1719 8.55469 11.8189 8.55469 12.6172C8.55469 13.1269 8.81875 13.5746 9.2173 13.832V15.5469C9.2173 15.9783 9.56707 16.3281 9.99855 16.3281C10.43 16.3281 10.7798 15.9783 10.7798 15.5469V13.8338C11.18 13.5768 11.4453 13.1281 11.4453 12.6172C11.4453 11.8189 10.7982 11.1719 10 11.1719Z" fill="currentColor" />
-                                                </svg>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div>  
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="tab-pane fade" id="pills-instructor" role="tabpanel" aria-labelledby="pills-instructor-tab">
-                        <h3 class="mb-6">About the instructor</h3>
+                        <!-- <h3 class="mb-6">درباره مدرس</h3> -->
 
                         <div class="media align-items-center mb-6">
-                            <div class="d-inline-block rounded-circle border mr-6 p-2">
+                            <div class="d-inline-block rounded-circle border ml-6 p-2">
                                 <div class="avatar avatar-size-120">
                                     <img src="images/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
                                 </div>
                             </div>
                             <div class="media-body">
-                                <h4 class="mb-0">Lauren Handerson</h4>
-                                <span>iOS Developer & UI Designer</span>
+                                <h4 class="mb-0">رحیم لطفی</h4>
+                                <span>توسعه‌دهنده و معمار ارشد نرم افزار</span>
                             </div>
                         </div>
 
                         <div class="row mx-xl-n5 mb-6">
                             <div class="col-12 col-md-auto mb-3 mb-md-0 px-xl-5">
                                 <div class="d-flex align-items-center">
-                                    <div class="mr-3 d-flex text-secondary icon-uxs">
+                                    <div class="ml-3 d-flex text-secondary icon-uxs">
                                         <!-- Icon -->
                                         <svg width="16px" height="16px" viewBox="0 -10 511.98685 511" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="currentColor" d="m114.59375 491.140625c-5.609375 0-11.179688-1.75-15.933594-5.1875-8.855468-6.417969-12.992187-17.449219-10.582031-28.09375l32.9375-145.089844-111.703125-97.960937c-8.210938-7.167969-11.347656-18.519532-7.976562-28.90625 3.371093-10.367188 12.542968-17.707032 23.402343-18.710938l147.796875-13.417968 58.433594-136.746094c4.308594-10.046875 14.121094-16.535156 25.023438-16.535156 10.902343 0 20.714843 6.488281 25.023437 16.511718l58.433594 136.769532 147.773437 13.417968c10.882813.980469 20.054688 8.34375 23.425782 18.710938 3.371093 10.367187.253906 21.738281-7.957032 28.90625l-111.703125 97.941406 32.9375 145.085938c2.414063 10.667968-1.726562 21.699218-10.578125 28.097656-8.832031 6.398437-20.609375 6.890625-29.910156 1.300781l-127.445312-76.160156-127.445313 76.203125c-4.308594 2.558594-9.109375 3.863281-13.953125 3.863281zm141.398438-112.875c4.84375 0 9.640624 1.300781 13.953124 3.859375l120.277344 71.9375-31.085937-136.941406c-2.21875-9.746094 1.089843-19.921875 8.621093-26.515625l105.472657-92.5-139.542969-12.671875c-10.046875-.917969-18.6875-7.234375-22.613281-16.492188l-55.082031-129.046875-55.148438 129.066407c-3.882812 9.195312-12.523438 15.511718-22.546875 16.429687l-139.5625 12.671875 105.46875 92.5c7.554687 6.613281 10.859375 16.769531 8.621094 26.539062l-31.0625 136.9375 120.277343-71.914062c4.308594-2.558594 9.109376-3.859375 13.953126-3.859375zm-84.585938-221.847656s0 .023437-.023438.042969zm169.128906-.0625.023438.042969c0-.023438 0-.023438-.023438-.042969zm0 0" />
                                         </svg>
 
                                     </div>
-                                    4.87 Instructor rating
+                                    ۴.۸۷ امتیاز مدرس
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-auto mb-3 mb-md-0 px-xl-5">
                                 <div class="d-flex align-items-center">
-                                    <div class="mr-3 d-flex text-secondary icon-uxs">
+                                    <div class="ml-3 d-flex text-secondary icon-uxs">
                                         <!-- Icon -->
                                         <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M9.96092 7.89061C10.3924 7.89061 10.7422 8.24034 10.7422 8.67186C10.7422 9.10338 10.3924 9.45311 9.96092 9.45311C9.5294 9.45311 9.17967 9.10338 9.17967 8.67186C9.17967 8.24034 9.5294 7.89061 9.96092 7.89061ZM12.6953 8.67186C12.6953 9.10338 13.045 9.45311 13.4765 9.45311C13.9081 9.45311 14.2578 9.10338 14.2578 8.67186C14.2578 8.24034 13.9081 7.89061 13.4765 7.89061C13.045 7.89061 12.6953 8.24034 12.6953 8.67186ZM5.66405 8.67186C5.66405 9.10338 6.01378 9.45311 6.4453 9.45311C6.87682 9.45311 7.22655 9.10338 7.22655 8.67186C7.22655 8.24034 6.87682 7.89061 6.4453 7.89061C6.01378 7.89061 5.66405 8.24034 5.66405 8.67186ZM19.313 15.9985C20.2273 16.9128 20.2273 18.3996 19.3135 19.3135C18.8566 19.7703 18.2563 19.9989 17.6562 19.9989C17.0561 19.9989 16.4558 19.7703 15.999 19.3135L11.7103 15.0345C11.6192 14.9435 11.5521 14.8317 11.5147 14.7084L10.5806 11.6333C10.4977 11.3606 10.5699 11.0646 10.7689 10.8606C10.9678 10.6567 11.262 10.5774 11.5367 10.6534L14.6899 11.5268C14.8198 11.5628 14.938 11.6316 15.0334 11.7268L19.313 15.9985ZM12.9527 14.0667L15.8468 16.9545L16.9519 15.8494L14.0748 12.9779L12.4885 12.5384L12.9527 14.0667ZM18.2086 17.1038L18.0578 16.9532L16.9529 18.0581L17.1032 18.208C17.4084 18.5133 17.904 18.5133 18.2086 18.2086C18.5133 17.904 18.5133 17.4084 18.2086 17.1038ZM10.4346 16.1895C10.2902 16.1958 10.144 16.199 9.99998 16.199C8.74373 16.199 7.53432 15.9651 6.40547 15.5038C6.21321 15.4254 5.99746 15.4266 5.80611 15.5073L2.24884 17.0089L3.44741 14.1697C3.5646 13.8922 3.51165 13.5718 3.31115 13.3465C2.1672 12.0614 1.5625 10.5238 1.5625 8.90028C1.5625 4.85427 5.34759 1.5625 9.99998 1.5625C14.6524 1.5625 18.4375 4.85427 18.4375 8.90028C18.4375 9.85975 18.2019 10.823 17.7371 11.7631C17.5459 12.1499 17.7044 12.6185 18.0912 12.8097C18.4781 13.0009 18.9466 12.8424 19.1378 12.4556C19.7099 11.2982 20 10.1021 20 8.90028C20 3.99261 15.514 0 9.99998 0C4.48608 0 0 3.99261 0 8.90028C0 10.7527 0.628051 12.507 1.82174 14.0031L0.0614928 18.1727C-0.0621032 18.4655 0.00411988 18.8041 0.228881 19.0289C0.378417 19.1784 0.578154 19.2578 0.781401 19.2578C0.883787 19.2578 0.987089 19.2376 1.08505 19.1963L6.12136 17.0703C7.34969 17.5291 8.65294 17.7615 9.99998 17.7615C10.1666 17.7615 10.3358 17.7577 10.5029 17.7505C10.934 17.7316 11.2681 17.3669 11.2492 16.9359C11.2304 16.5048 10.865 16.1696 10.4346 16.1895Z" fill="currentColor" />
                                         </svg>
 
                                     </div>
-                                    1,533 reviews
+                                    ۱۵۴۴ بازخورد
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-auto mb-3 mb-md-0 px-xl-5">
                                 <div class="d-flex align-items-center">
-                                    <div class="mr-3 d-flex text-secondary icon-uxs">
+                                    <div class="ml-3 d-flex text-secondary icon-uxs">
                                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M17.1947 7.06802L14.6315 7.9985C14.2476 7.31186 13.712 6.71921 13.0544 6.25992C12.8525 6.11877 12.6421 5.99365 12.4252 5.88303C13.0586 5.25955 13.452 4.39255 13.452 3.43521C13.452 1.54098 11.9124 -1.90735e-06 10.0197 -1.90735e-06C8.12714 -1.90735e-06 6.58738 1.54098 6.58738 3.43521C6.58738 4.39255 6.98075 5.25955 7.61414 5.88303C7.39731 5.99365 7.1869 6.11877 6.98502 6.25992C6.32752 6.71921 5.79178 7.31186 5.40787 7.9985L2.8447 7.06802C2.33612 6.88339 1.79688 7.26044 1.79688 7.80243V16.5178C1.79688 16.8465 2.00256 17.14 2.31155 17.2522L9.75312 19.9536C9.93073 20.018 10.1227 20.0128 10.2863 19.9536L17.7278 17.2522C18.0368 17.14 18.2425 16.8465 18.2425 16.5178V7.80243C18.2425 7.26135 17.704 6.88309 17.1947 7.06802ZM10.0197 1.5625C11.0507 1.5625 11.8895 2.40265 11.8895 3.43521C11.8895 4.46777 11.0507 5.30792 10.0197 5.30792C8.98866 5.30792 8.14988 4.46777 8.14988 3.43521C8.14988 2.40265 8.98866 1.5625 10.0197 1.5625ZM9.23844 18.1044L3.35938 15.9703V8.91724L9.23844 11.0513V18.1044ZM10.0197 9.67255L6.90644 8.54248C7.58164 7.51892 8.75184 6.87042 10.0197 6.87042C11.2875 6.87042 12.4577 7.51892 13.1329 8.54248L10.0197 9.67255ZM16.68 15.9703L10.8009 18.1044V11.0513L16.68 8.91724V15.9703Z" fill="currentColor" />
                                         </svg>
 
                                     </div>
-                                    23,912 students
+                                    ۲۳۴۵ دانشجو
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-auto mb-3 mb-md-0 px-xl-5">
                                 <div class="d-flex align-items-center">
-                                    <div class="mr-3 d-flex text-secondary icon-uxs">
+                                    <div class="ml-3 d-flex text-secondary icon-uxs">
                                         <!-- Icon -->
                                         <svg width="14" height="16" viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M12.8704 6.15374L3.42038 0.328572C2.73669 -0.0923355 1.9101 -0.109836 1.20919 0.281759C0.508282 0.673291 0.0898438 1.38645 0.0898438 2.18929V13.7866C0.0898438 15.0005 1.06797 15.9934 2.27016 16C2.27344 16 2.27672 16 2.27994 16C2.65563 16 3.04713 15.8822 3.41279 15.6591C3.70694 15.4796 3.79991 15.0957 3.62044 14.8016C3.44098 14.5074 3.05697 14.4144 2.76291 14.5939C2.59188 14.6982 2.42485 14.7522 2.27688 14.7522C1.82328 14.7497 1.33763 14.3611 1.33763 13.7866V2.18933C1.33763 1.84492 1.51713 1.53907 1.81775 1.3711C2.11841 1.20314 2.47294 1.21064 2.76585 1.39098L12.2159 7.21615C12.4999 7.39102 12.6625 7.68262 12.6618 8.01618C12.6611 8.34971 12.4974 8.64065 12.2118 8.81493L5.37935 12.9983C5.08548 13.1783 4.9931 13.5623 5.17304 13.8562C5.35295 14.1501 5.73704 14.2424 6.03092 14.0625L12.8625 9.87962C13.5166 9.48059 13.9081 8.78496 13.9096 8.01868C13.9112 7.25249 13.5226 6.55524 12.8704 6.15374Z" fill="currentColor" />
                                         </svg>
 
                                     </div>
-                                    29 courses
+                                    ۲۹ دوره آموزشی
                                 </div>
                             </div>
                         </div>
 
-                        <p class="mb-6 line-height-md">I am a UI/UX designer and an iOS developer with having almost six years of experience in application development and also ten years of graphic design and User Interface design.</p>
-                        <p class="mb-6 line-height-md">My passion is helping people to learn new skills in a short-term course and achieve their goals. I've been designing for more than ten years and developing iOS apps for four years. It's my honor if I could help you learn to program in a simple word. I currently am teaching iOS 13, Swift 5, ARKit 3, Sketch 5, Illustrator, Photoshop, Cinema 4D, HTML, CSS, JavaScript, etc.</p>
+                        <p class="mb-6 line-height-md">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                        <p class="mb-6 line-height-md">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
                     </div>
 
                     <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">
-                        <h3 class="mb-6">Student feedback</h3>
+                        <h3 class="mb-6">بازخورد دانشجویان</h3>
                         <div class="row align-items-center mb-8">
                             <div class="col-md-auto mb-5 mb-md-0">
                                 <div class="border rounded shadow d-flex align-items-center justify-content-center px-9 py-8">
                                     <div class="m-2 text-center">
-                                        <h1 class="display-2 mb-0 font-weight-medium mb-n1">4.93</h1>
-                                        <h5 class="mb-0">Course rating</h5>
+                                        <h1 class="display-2 mb-0 font-weight-medium mb-n1">۴.۸۸</h1>
+                                        <h5 class="mb-0">امتیاز دوره</h5>
                                         <div class="star-rating">
                                             <div class="rating" style="width:100%;"></div>
                                         </div>
@@ -2250,67 +2014,67 @@
 
                             <div class="col-md">
                                 <div class="d-md-flex align-items-center my-3 my-md-4">
-                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 mr-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
-                                        <div class="bg-teal rounded-pill position-absolute top-0 left-0 bottom-0" style="width: 90%;"></div>
+                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 ml-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
+                                        <div class="bg-teal rounded-pill position-absolute top-0 right-0 bottom-0" style="width: 90%;"></div>
                                     </div>
 
                                     <div class="d-flex align-items-center">
-                                        <div class="star-rating star-rating-lg secondary mr-4">
+                                        <div class="star-rating star-rating-lg secondary ml-4">
                                             <div class="rating" style="width:90%;"></div>
                                         </div>
-                                        <span>4132</span>
+                                        <span>۴۱۵۶</span>
                                     </div>
                                 </div>
 
                                 <div class="d-md-flex align-items-center my-3 my-md-4">
-                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 mr-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
-                                        <div class="bg-teal rounded-pill position-absolute top-0 left-0 bottom-0" style="width: 60%;"></div>
+                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 ml-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
+                                        <div class="bg-teal rounded-pill position-absolute top-0 right-0 bottom-0" style="width: 60%;"></div>
                                     </div>
 
                                     <div class="d-flex align-items-center">
-                                        <div class="star-rating star-rating-lg secondary mr-4">
+                                        <div class="star-rating star-rating-lg secondary ml-4">
                                             <div class="rating" style="width:60%;"></div>
                                         </div>
-                                        <span>150</span>
+                                        <span>۱۵۰</span>
                                     </div>
                                 </div>
 
                                 <div class="d-md-flex align-items-center my-3 my-md-4">
-                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 mr-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
-                                        <div class="bg-teal rounded-pill position-absolute top-0 left-0 bottom-0" style="width: 50%;"></div>
+                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 ml-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
+                                        <div class="bg-teal rounded-pill position-absolute top-0 right-0 bottom-0" style="width: 50%;"></div>
                                     </div>
 
                                     <div class="d-flex align-items-center">
-                                        <div class="star-rating star-rating-lg secondary mr-4">
+                                        <div class="star-rating star-rating-lg secondary ml-4">
                                             <div class="rating" style="width:50%;"></div>
                                         </div>
-                                        <span>50</span>
+                                        <span>۵۰</span>
                                     </div>
                                 </div>
 
                                 <div class="d-md-flex align-items-center my-3 my-md-4">
-                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 mr-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
-                                        <div class="bg-teal rounded-pill position-absolute top-0 left-0 bottom-0" style="width: 35%;"></div>
+                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 ml-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
+                                        <div class="bg-teal rounded-pill position-absolute top-0 right-0 bottom-0" style="width: 35%;"></div>
                                     </div>
 
                                     <div class="d-flex align-items-center">
-                                        <div class="star-rating star-rating-lg secondary mr-4">
+                                        <div class="star-rating star-rating-lg secondary ml-4">
                                             <div class="rating" style="width:35%;"></div>
                                         </div>
-                                        <span>32</span>
+                                        <span>۳۲</span>
                                     </div>
                                 </div>
 
                                 <div class="d-md-flex align-items-center my-3 my-md-4">
-                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 mr-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
-                                        <div class="bg-teal rounded-pill position-absolute top-0 left-0 bottom-0" style="width: 15%;"></div>
+                                    <div class="bg-gray-200 position-relative rounded-pill flex-grow-1 ml-md-5 mb-2 mb-md-0 mw-md-260p" style="height: 10px;">
+                                        <div class="bg-teal rounded-pill position-absolute top-0 right-0 bottom-0" style="width: 15%;"></div>
                                     </div>
 
                                     <div class="d-flex align-items-center">
-                                        <div class="star-rating star-rating-lg secondary mr-4">
+                                        <div class="star-rating star-rating-lg secondary ml-4">
                                             <div class="rating" style="width:15%;"></div>
                                         </div>
-                                        <span>1</span>
+                                        <span>۱</span>
                                     </div>
                                 </div>
                             </div>
@@ -2318,44 +2082,44 @@
 
                         <ul class="list-unstyled pt-2">
                             <li class="media">
-                                <div class="avatar avatar-xxl mr-3 mr-md-6">
+                                <div class="avatar avatar-xxl ml-3 ml-md-6">
                                     <img src="images/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
                                 </div>
                                 <div class="media-body">
                                     <div class="d-md-flex align-items-center mb-5">
-                                        <div class="mr-auto mb-4 mb-md-0">
-                                            <h5 class="mb-0">Oscar Cafeo</h5>
-                                            <p class="font-size-sm font-italic">Beautiful courses</p>
+                                        <div class="ml-auto mb-4 mb-md-0">
+                                            <h5 class="mb-0">صادق علی‌پور</h5>
+                                            <p class="font-size-sm font-italic">دوره‌های مطلوب</p>
                                         </div>
                                         <div class="star-rating">
                                             <div class="rating" style="width:100%;"></div>
                                         </div>
                                     </div>
-                                    <p class="mb-6 line-height-md">This course was well organized and covered a lot more details than any other Figma courses. I really enjoy it. One suggestion is that it can be much better if we could complete the prototype together. Since we created 24 frames, I really want to test it on Figma mirror to see all the connections. Could you please let me take a look at the complete prototype?</p>
+                                    <p class="mb-6 line-height-md">این دوره به خوبی سازماندهی شده بود و جزئیات بسیار بیشتری را نسبت به سایر دوره های Figma پوشش می داد. من واقعا از آن لذت می برم. یک پیشنهاد این است که اگر بتوانیم نمونه اولیه را با هم کامل کنیم، می تواند بسیار بهتر باشد. از آنجایی که ما 24 فریم ایجاد کردیم، من واقعاً می خواهم آن را روی آینه Figma تست کنم تا همه اتصالات را ببینم. میشه لطفا اجازه بدید نمونه کامل رو ببینم؟</p>
                                 </div>
                             </li>
                             <li class="media">
-                                <div class="avatar avatar-xxl mr-3 mr-md-6">
+                                <div class="avatar avatar-xxl ml-3 ml-md-6">
                                     <img src="images/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
                                 </div>
                                 <div class="media-body">
                                     <div class="d-md-flex align-items-center mb-5">
-                                        <div class="mr-auto mb-4 mb-md-0">
-                                            <h5 class="mb-0">Alex Morgan</h5>
-                                            <p class="font-size-sm font-italic">Beautiful courses</p>
+                                        <div class="ml-auto mb-4 mb-md-0">
+                                            <h5 class="mb-0">لورم ایپسون</h5>
+                                            <p class="font-size-sm font-italic">دوره‌های با کیفیت</p>
                                         </div>
                                         <div class="star-rating">
                                             <div class="rating" style="width:100%;"></div>
                                         </div>
                                     </div>
-                                    <p class="mb-6 line-height-md">This course was well organized and covered a lot more details than any other Figma courses. I really enjoy it. One suggestion is that it can be much better if we could complete the prototype together. Since we created 24 frames, I really want to test it on Figma mirror to see all the connections. Could you please let me take a look at the complete prototype?</p>
-                                </div>
+                                    <p class="mb-6 line-height-md">این دوره به خوبی سازماندهی شده بود و جزئیات بسیار بیشتری را نسبت به سایر دوره های Figma پوشش می داد. من واقعا از آن لذت می برم. یک پیشنهاد این است که اگر بتوانیم نمونه اولیه را با هم کامل کنیم، می تواند بسیار بهتر باشد. از آنجایی که ما 24 فریم ایجاد کردیم، من واقعاً می خواهم آن را روی آینه Figma تست کنم تا همه اتصالات را ببینم. میشه لطفا اجازه بدید نمونه کامل رو ببینم؟</p>
+                              </div>
                             </li>
                         </ul>
 
                         <div class="border shadow rounded p-6 p-md-9">
-                            <h3 class="mb-2">Add Reviews & Rate</h3>
-                            <div class>What is it like to Course?</div>
+                            <h3 class="mb-2">نظرت چیه؟</h3>
+                            <div class>چی رو دوست داشتی تو این دوره؟</div>
                             <form>
                                 <div class="clearfix">
                                     <fieldset class="slect-rating mb-3">
@@ -2392,16 +2156,16 @@
                                 </div>
 
                                 <div class="form-group mb-6">
-                                    <label for="exampleInputTitle1">Review Title</label>
-                                    <input type="text" class="form-control placeholder-1" id="exampleInputTitle1" placeholder="Courses">
+                                    <label for="exampleInputTitle1">عنوان</label>
+                                    <input type="text" class="form-control placeholder-1" id="exampleInputTitle1" placeholder="مثال: کیفیت دوره‌ها...">
                                 </div>
 
                                 <div class="form-group mb-6">
-                                    <label for="exampleFormControlTextarea1">Review Content</label>
-                                    <textarea class="form-control placeholder-1" id="exampleFormControlTextarea1" rows="6" placeholder="Content"></textarea>
+                                    <label for="exampleFormControlTextarea1">محتوا</label>
+                                    <textarea class="form-control placeholder-1" id="exampleFormControlTextarea1" rows="6" placeholder="هر چه دلت تنگت می‌خواهد بگو..."></textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary btn-block mw-md-300p">SUBMIT REVIEW</button>
+                                <button type="submit" class="btn btn-primary btn-block mw-md-300p">ارسال</button>
                             </form>
                         </div>
                     </div>
