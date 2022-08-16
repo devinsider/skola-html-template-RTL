@@ -131,6 +131,7 @@ body {
 
 .navbar-vertical .dropdown-item {
     border-right: 5px solid transparent;
+	border-left: none !important;
 }
 
 .navbar-vertical .dropdown-item:focus, .navbar-vertical .dropdown-item:hover {
