@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Ray-Bold';
-    src: url('../fonts/Ray-Black.ttf');
+    src: url('../fonts/Mikhak-v3.4/webfonts/statics/Mikhak-Medium.woff2');
+	/* src: url('../fonts/Mikhak-v3.4/webfonts/variable/Mikhak[DSTY,KSHD,wght].woff2'); */
 }
 
 body {
