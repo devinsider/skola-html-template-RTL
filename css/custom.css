@@ -147,3 +147,7 @@ body {
 	z-index: -1;
 }
 
+.rounded {
+    border-radius: 0.7rem !important;
+}
+
